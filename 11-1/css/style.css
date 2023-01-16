@@ -1,0 +1,305 @@
+body {
+    margin: 0;
+    color: #163152;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+p {
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+.header-nav {
+    text-transform: uppercase;
+}
+
+.main-header {
+    width: 1170px;
+    padding: 20px 55px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo-container {
+    width: 64px;
+    margin-right: 450px;
+}
+
+.header-nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 500px;
+}
+
+.header-nav-item {
+    margin-bottom: 10px;
+}
+
+.header-nav-item:last-child {
+    margin-bottom: 0;
+}
+
+.nav-user-icon {
+    width: 36px;
+}
+
+.header-ref {
+    color: #163152;
+    text-decoration: none;
+}
+
+main {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 55px;
+}
+
+.main {
+    width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+.main-title {
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 60px;
+    margin-bottom: 40px;
+}
+
+.event {
+    display: flex;
+    width: 1030px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+    margin-bottom: 120px;
+}
+
+.event-text {
+    width: 400px;
+}
+
+.event-date {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.event-title {
+    display: inline-block;
+    line-height: 34px;
+    padding-bottom: 15px;
+    font-weight: 700;
+    font-size: 24px;
+    border-bottom: 2px solid #00C6BD;
+    margin-bottom: 19px;
+}
+
+.event-content {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.event-date {
+    text-transform: uppercase;
+}
+
+.news {
+    width: 770px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+.news-description {
+    color: #8693A4;
+    line-height: 19px;
+    font-size: 16px;
+    margin-top: 3px;
+}
+
+.news-content-title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 27px;
+}
+
+.news-text {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 12px;
+}
+
+.news-text:last-child {
+    margin-bottom: 0;
+}
+
+.teams {
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.teams-list {
+    margin: 15px 0 30px 0; 
+}
+
+.teams-item {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.quote {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+}
+
+.author-name {
+    margin-top: 27px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.publish-date {
+    color: #8693A4;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+}
+
+.news-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    display: inline;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #00C6BD;
+}
+
+.news-title-container {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.news-image-block {
+    padding: 0;
+    margin-bottom: 23px;
+    margin-left: 0 auto;
+}
+
+.share-icon {
+    margin-top: 30px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+.contacts-text {
+    width: 340px;
+}
+
+.map {
+    justify-self: flex-start;
+}
+
+.contacts-title {
+    display: inline-block;
+    padding-bottom: 15px;
+    font-weight: 700;
+    font-size: 24px;
+    border-bottom: 2px solid #00C6BD;
+    margin-bottom: 20px;
+}
+
+.contact-key {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.contact-value {
+    margin: 15px 0;
+}
+
+.contacts-nav-list {
+    margin: 15px 0;
+}
+
+footer {
+    padding: 60px 0;
+}
+
+.first-column{
+    margin-left: 55px;
+    margin-right: 90px;
+}
+
+.footer-nav {
+    width: 870px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-conteiner {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.list-conteiner {
+    width: 165px;
+}
+
+
+.footer-company-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.conf {
+    font-size: 12px;
+    text-decoration: none;
+    color: #163152;
+}
+
+.helpful-info {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-company-list-title {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.helpful-info-item {
+    color: #163152;
+    text-decoration: none;
+}
